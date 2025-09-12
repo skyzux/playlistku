@@ -1,0 +1,234 @@
+<!doctype html>
+
+<!--
+  streaming_player.html
+  Single-file HLS streaming web player (HTML + CSS + JS)
+
+  Features:
+  - Play HLS (.m3u8) URLs with hls.js (fallback to native HLS on Safari)
+  - Simple playlist management (add/remove/select)
+  - Quality (level) selector when using hls.js
+  - Keyboard shortcuts: space = play/pause, f = fullscreen
+  - Works on GitHub Pages (serve as static files)
+
+  IMPORTANT: Do NOT paste or use stream URLs you don't have rights to.
+--><html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Streaming Player</title>
+  <link rel="icon" href="https://github.githubassets.com/favicons/favicon.png">
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#06b6d4;--muted:#94a3b8;--glass: rgba(255,255,255,0.03)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial;color:#e6eef6;background:linear-gradient(180deg,#071025 0%, #081827 60%);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+    .wrap{width:100%;max-width:1000px}
+    .player-card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:12px;padding:16px;box-shadow:0 8px 30px rgba(2,6,23,0.6);display:grid;grid-template-columns:1fr 320px;gap:16px}
+    @media (max-width:880px){.player-card{grid-template-columns:1fr;}.sidebar{order:2}}
+    video{width:100%;height:100%;max-height:68vh;border-radius:8px;background:#000;outline:none}
+    .controls{display:flex;gap:8px;align-items:center;margin-top:8px}
+    button,select,input{font:inherit}.sidebar{background:var(--card);padding:12px;border-radius:10px;color:var(--muted)}
+.logo{display:flex;gap:12px;align-items:center}
+.logo h1{font-size:16px;margin:0;color:#fff}
+label{display:block;font-size:13px;margin-top:12px;color:var(--muted)}
+input[type=text]{width:100%;padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:#e6eef6}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:8px 10px;border-radius:8px;background:var(--accent);color:#042026;border:none;cursor:pointer}
+.btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.04);color:var(--muted)}
+.playlist{margin-top:12px;max-height:220px;overflow:auto;padding-right:8px}
+.pl-item{padding:8px;border-radius:8px;display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;background:linear-gradient(90deg, rgba(255,255,255,0.01), rgba(255,255,255,0.00));}
+.pl-item button{margin-left:8px}
+.meta{font-size:13px;color:var(--muted)}
+.small{font-size:12px;color:var(--muted)}
+.footer{margin-top:12px;font-size:12px;color:var(--muted)}
+select{padding:8px;border-radius:8px;background:transparent;border:1px solid rgba(255,255,255,0.04);color:#e6eef6}
+
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="player-card" role="region" aria-label="Streaming player">
+      <div class="main">
+        <video id="video" controls playsinline preload="metadata" crossorigin="anonymous" poster="">
+          <!-- If browser supports native HLS (Safari), it will play m3u8 directly when set as src -->
+        </video><div class="controls">
+      <button id="playPause" class="btn ghost">Play</button>
+      <button id="mute" class="btn ghost">Mute</button>
+      <label class="small">Quality:</label>
+      <select id="levels" aria-label="Quality selector"><option value="auto">Auto</option></select>
+      <div style="flex:1"></div>
+      <button id="fullscreen" class="btn ghost">Fullscreen (F)</button>
+    </div>
+    <div class="footer">Tips: Tekan <strong>Space</strong> untuk Play/Pause, <strong>F</strong> untuk fullscreen.</div>
+  </div>
+
+  <aside class="sidebar">
+    <div class="logo">
+      <div style="width:44px;height:44px;border-radius:8px;background:linear-gradient(135deg,#0891b2,#06b6d4);"></div>
+      <div>
+        <h1>Streaming Player</h1>
+        <div class="meta">Simple HLS player — gunakan URL yang Anda miliki haknya.</div>
+      </div>
+    </div>
+
+    <label for="url">Masukkan URL HLS (.m3u8) :</label>
+    <input id="url" type="text" placeholder="https://example.com/stream.m3u8" aria-label="m3u8 URL">
+    <div style="margin-top:8px;display:flex;gap:8px">
+      <button id="loadBtn" class="btn">Load & Play</button>
+      <button id="addBtn" class="btn ghost">Add to Playlist</button>
+    </div>
+
+    <label style="margin-top:10px">Playlist</label>
+    <div id="playlist" class="playlist" aria-live="polite"></div>
+
+    <label>Player info</label>
+    <div class="small">Status: <span id="status">idle</span></div>
+    <div class="small">Current level: <span id="curLevel">-</span></div>
+
+    <div style="height:10px"></div>
+    <div class="small">Hosting: static (GitHub Pages / Netlify). Legal: Pastikan Anda berhak memutar dan menyebarkan stream.</div>
+  </aside>
+</div>
+
+  </div>  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>  <script>
+    // Player logic
+    const video = document.getElementById('video');
+    const urlInput = document.getElementById('url');
+    const loadBtn = document.getElementById('loadBtn');
+    const addBtn = document.getElementById('addBtn');
+    const playlistEl = document.getElementById('playlist');
+    const statusEl = document.getElementById('status');
+    const levelsSel = document.getElementById('levels');
+    const playPauseBtn = document.getElementById('playPause');
+    const muteBtn = document.getElementById('mute');
+    const fullscreenBtn = document.getElementById('fullscreen');
+    const curLevelEl = document.getElementById('curLevel');
+
+    let hls = null;
+    let playlist = [];
+    let currentIndex = -1;
+
+    function setStatus(s){ statusEl.textContent = s; }
+
+    function supportsNativeHls(){
+      const canPlay = video.canPlayType('application/vnd.apple.mpegurl');
+      return canPlay !== '';
+    }
+
+    function destroyHls(){
+      if(hls){ try{ hls.destroy(); }catch(e){} hls = null; }
+      video.src = '';
+    }
+
+    function attachStream(url, autoplay=true){
+      setStatus('loading');
+      destroyHls();
+
+      if(Hls.isSupported() && !supportsNativeHls()){
+        hls = new Hls({capLevelToPlayerSize:true});
+        hls.loadSource(url);
+        hls.attachMedia(video);
+
+        hls.on(Hls.Events.MANIFEST_PARSED, function() {
+          setStatus('playing');
+          populateLevels();
+          if(autoplay) video.play().catch(()=>{});
+        });
+
+        hls.on(Hls.Events.ERROR, function(event, data) {
+          console.error('HLS error', data);
+          setStatus('error: ' + (data && data.type ? data.type : 'unknown'));
+        });
+
+        hls.on(Hls.Events.LEVEL_SWITCHED, function(_, data){
+          const level = hls.levels && hls.levels[data.level];
+          curLevelEl.textContent = level ? (level.height + 'p') : 'auto';
+        });
+
+      } else if (supportsNativeHls()){
+        video.src = url;
+        video.addEventListener('loadedmetadata', ()=>{ setStatus('playing'); if(autoplay) video.play().catch(()=>{}); });
+      } else {
+        setStatus('unsupported');
+        alert('Browser Anda tidak mendukung HLS (m3u8). Gunakan Chrome/Firefox dengan hls.js atau Safari.');
+      }
+    }
+
+    function populateLevels(){
+      levelsSel.innerHTML = '';
+      const autoOpt = document.createElement('option'); autoOpt.value = 'auto'; autoOpt.textContent = 'Auto'; levelsSel.appendChild(autoOpt);
+      if(!hls || !hls.levels) return;
+      hls.levels.forEach((lvl, idx)=>{
+        const opt = document.createElement('option');
+        opt.value = idx; opt.textContent = lvl.height ? (lvl.height + 'p') : ('level ' + idx);
+        levelsSel.appendChild(opt);
+      });
+      levelsSel.addEventListener('change', ()=>{
+        const v = levelsSel.value;
+        if(v === 'auto'){ hls.currentLevel = -1; }
+        else{ hls.currentLevel = parseInt(v); }
+      });
+    }
+
+    loadBtn.addEventListener('click', ()=>{
+      const url = urlInput.value.trim();
+      if(!url) return alert('Masukkan URL .m3u8 yang valid');
+      currentIndex = -1; // playing direct URL
+      attachStream(url, true);
+    });
+
+    addBtn.addEventListener('click', ()=>{
+      const url = urlInput.value.trim();
+      if(!url) return alert('Masukkan URL .m3u8 yang valid');
+      const title = prompt('Nama untuk stream (optional)', url.split('/').slice(-1)[0]) || url;
+      playlist.push({title, url});
+      renderPlaylist();
+    });
+
+    function renderPlaylist(){
+      playlistEl.innerHTML = '';
+      playlist.forEach((it, idx)=>{
+        const item = document.createElement('div'); item.className = 'pl-item';
+        const left = document.createElement('div'); left.innerHTML = '<div style="font-weight:600;color:#fff">'+escapeHtml(it.title)+'</div><div class="meta">'+escapeHtml(it.url)+'</div>';
+        const right = document.createElement('div');
+        const playBtn = document.createElement('button'); playBtn.className='btn'; playBtn.textContent='Play'; playBtn.addEventListener('click', ()=>{ currentIndex = idx; attachStream(it.url, true); });
+        const delBtn = document.createElement('button'); delBtn.className='btn ghost'; delBtn.textContent='Remove'; delBtn.addEventListener('click', ()=>{ playlist.splice(idx,1); renderPlaylist(); });
+        right.appendChild(playBtn); right.appendChild(delBtn);
+        item.appendChild(left); item.appendChild(right);
+        playlistEl.appendChild(item);
+      });
+    }
+
+    function escapeHtml(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+    playPauseBtn.addEventListener('click', ()=>{
+      if(video.paused) video.play().catch(()=>{}); else video.pause(); updatePlayBtn();
+    });
+    video.addEventListener('play', updatePlayBtn);
+    video.addEventListener('pause', updatePlayBtn);
+    function updatePlayBtn(){ playPauseBtn.textContent = video.paused ? 'Play' : 'Pause'; }
+
+    muteBtn.addEventListener('click', ()=>{ video.muted = !video.muted; muteBtn.textContent = video.muted ? 'Unmute' : 'Mute'; });
+
+    fullscreenBtn.addEventListener('click', ()=>{ if(document.fullscreenElement) document.exitFullscreen(); else video.requestFullscreen().catch(()=>{}); });
+
+    // Keyboard shortcuts
+    document.addEventListener('keydown', (e)=>{
+      const tag = document.activeElement.tagName.toLowerCase();
+      if(tag === 'input' || tag === 'textarea') return; // ignore when typing
+      if(e.code === 'Space'){ e.preventDefault(); if(video.paused) video.play().catch(()=>{}); else video.pause(); }
+      if(e.key.toLowerCase() === 'f'){ if(document.fullscreenElement) document.exitFullscreen(); else video.requestFullscreen().catch(()=>{}); }
+    });
+
+    // helper: preload sample placeholder (no stream)
+    // Usage: drop a URL then click Load & Play or Add to Playlist
+
+    // Save/Load playlist to localStorage
+    function savePlaylist(){ localStorage.setItem('simple_hls_playlist', JSON.stringify(playlist)); }
+    function loadPlaylist(){ try{ const p = JSON.parse(localStorage.getItem('simple_hls_playlist')||'[]'); if(Array.isArray(p)) playlist = p; }catch(e){} renderPlaylist(); }
+    window.addEventListener('beforeunload', savePlaylist);
+    loadPlaylist();
+
+    // expose for debugging
+    window.simpleHls = {attachStream, playlist, renderPlaylist};
+  </script></body>
+</html>
