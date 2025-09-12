@@ -80,7 +80,7 @@ https://streaming.indihometv.com/atm/DASH/tvone/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_MOJI_2025_03_17_15_22_26.png" group-title="LOKAL",MOJI
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://streaming.indihometv.com/joss/134/moji.mpd
+https://cdnbal1.indihometv.com/dass/133/moji.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.indihometv.com/assets/images/channel/logo_insert_small1.png?v=2.0.0.15" group-title="LOKAL",Insert
 https://live.detiknetwork.com/insertlive/insertlive-event/smil:insertlive-event.smil/chunklist_w1882143488_b54400_sleng.m3u8
