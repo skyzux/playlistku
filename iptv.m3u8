@@ -1,89 +1,134 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_INDOSIAR_2025_03_17_14_54_45.png" group-title="LOKAL",Indosiar
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5eaddccd893a47ac8b65f9b31963a3ae:881afa67ea57b41c1822d745d67559e6
 https://atemecdnbalancer-voe.sysln.id/live/eds/IndosiarHD/mpd/IndosiarHD.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_SCTV_2025_03_17_14_53_51.png" group-title="LOKAL",SCTV
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a79a188263724bfcaafc4a7c3b3cd8ce:4d4732d93e6720de0ef884d7106e14f7
 https://atemecdnbalancer-voe.sysln.id/live/eds/SCTVHD/mpd/SCTVHD.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_rcti_hd.png" group-title="LOKAL",RCTI
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9ba3e153ef8956d6e2b0684fcf74f58f:dbc28cb5c6426080f984a5b6d436bb30
-https://av-ch-cdn.mncnow.id/live/eds/rcti-2/sa_dash/rcti-2.mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MDA5MmI1NjctOWMyMS0zNDYyLTk0NDAtODM5NGQ1ZjdlZWRi
+#KODIPROP:inputstream.adaptive.license_key=https://drm-vision2025.tvrusak1992.workers.dev/?no=1&type=drm
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#https://terabit.web.id/media.mpd?id=1&type=dash
+#https://av-ch-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash/RCTI-DD.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_mnc_hd.png" group-title="LOKAL",MNCTV
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=828e0aba9825c3546a2831e4c0c36f7f:f85d3dcd38981368ab3da597e97ebdcc
-https://av-ch-cdn.mncnow.id/live/eds/MNCTV-HD/sa_dash/MNCTV-HD.mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MDA5MmI1NjctOWMyMS0zNDYyLTk0NDAtODM5NGQ1ZjdlZWRi
+#KODIPROP:inputstream.adaptive.license_key=https://drm-vision2025.tvrusak1992.workers.dev/?no=2&type=drm
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#https://av-ch-cdn.mncnow.id/live/eds/MNCTV-HD/sa_dash/MNCTV-HD.mpd
+#https://terabit.web.id/media.mpd?id=2&type=dash
+#https://fta4-cdn-flr.visionplus.id/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/logo_gtv_hd.png" group-title="LOKAL",GTV
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=88f6c7cbd793374cb5f12d7e26dcd63b:e82daa7c7bfb03d99327463fdbd37336
-https://av-ch-cdn.mncnow.id/live/eds/GTV-HD/sa_dash/GTV-HD.mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MDA5MmI1NjctOWMyMS0zNDYyLTk0NDAtODM5NGQ1ZjdlZWRi
+#KODIPROP:inputstream.adaptive.license_key=https://tvkitastream.my.id/rctiplus/drm-vip.php/widevine?id=3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#https://av-ch-cdn.mncnow.id/live/eds/GTV-HD/sa_dash/GTV-HD.mpd
+#https://fta2-cdn-flr.visionplus.id/out/v1/b8b9b1d5f80f45649b4a3619291551ab/index.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_INEWS_2025_03_17_15_13_44.png" group-title="LOKAL",INEWS
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=a31cf5136789514b7e12b9cc99307c84:980e54d671ffc2b2f4cf54e75cae0ac2
-https://av-ch-cdn.mncnow.id/live/eds/iNewsTV-HDD/sa_dash/iNewsTV-HDD.mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MDA5MmI1NjctOWMyMS0zNDYyLTk0NDAtODM5NGQ1ZjdlZWRi
+#KODIPROP:inputstream.adaptive.license_key=https://drm-vision2025.tvrusak1992.workers.dev/?no=4&type=drm
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#https://av-ch-cdn.mncnow.id/live/eds/iNewsTV-HDD/sa_dash/iNewsTV-HDD.mpd
+#https://terabit.web.id/media.mpd?id=4&type=dash
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_SINDONEWSTV_2025_03_17_15_14_55.png" group-title="LOKAL",SINDOnews TV
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://streaming.indihometv.com/atm/hlsv3/mncnews/index.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#https://av-ch-cdn.mncnow.id/live/eds/MNCnews-HDD/sa_dash/MNCnews-HDD.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_RTV_2025_03_17_14_55_38.png" group-title="LOKAL",RTV
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://streamo.web.id/api/1/post/license/iptvsys/20
-https://streamo.web.id/api/1/get/live/tv/channel/20.mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=87484c0b2a4c41b9b08249ef7817ad7f:ff4f3f232f747e5e7f616b4741fa5c32
+###https://av-ch-cdn.mncnow.id/live/eds/RTV/sa_dash/RTV.mpd
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/abf3e254818c4608aab8aa109a972203/index.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_ANTV_2025_03_17_14_52_46.png" group-title="LOKAL",ANTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
-https://streamo.web.id/api/1/get/live/tv/channel/8.mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=251c384e846841abafa1f7c723d57e66:e45b06a38cd261b74c5160f0912c042f
+https://d84q7nw4qf3j3.cloudfront.net/out/v1/0a6c6b1534444ab4bd903af8761e6747/index.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_MDTV_2025_03_17_14_56_36.png" group-title="LOKAL",MDTV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
-https://streamo.web.id/api/1/get/live/tv/channel/4.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=91dec6fd9fd84b879aacc027bf532790:588a2214bfb91fc0150b9ac2a745cef8
+###https://av-ch-cdn.mncnow.id/live/eds/NetTV-HD/sa_dash/NetTV-HD.mpd
+https://d84q7nw4qf3j3.cloudfront.net/out/v1/6941abe8211d4ce8bd13d9b96bdd1630/index.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_JAKTV_2025_03_17_14_50_11.png" group-title="LOKAL",JAKTV
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f2c9087e5432ce2c2f4ae8e1fd77ae4c:f7a50262991ca7d505fce1572a7f0c2a
-https://cempedak-live-cdn.mncnow.id/live/eds/JakTV/sa_dash_vmx/JakTV.mpd
+#KODIPROP:inputstream.adaptive.license_key=fee85fded8ea4591b643468412bee3be:7e364f3ffd09c7b51c8d81430819177f
+https://atemecdnbalancer-voe.sysln.id/live/eds/JAKTV/mpd/JAKTV.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_KOMPASTV_2025_03_17_14_56_36.png" group-title="LOKAL",Kompas TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
-https://streamo.web.id/api/1/get/live/tv/channel/9.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c1e5a6713acc4774a622d01177224094:d88b67279524d26984f9c0041442b5c6
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4S8ncj0jUU__dY6xhxtOLIcvsxg_8KuHKBkjcNi4u6t4ooU09mESxfGueK91oI5ErDNbOyP8dZobrjGCzTb7HfBVc0KexuXB5VP7ISiBz38Xvtrrt_Q8NNiGovWjkQiSaPqShp6ClbIEmKKexjTjB4i3-4vwKIHyKck-0nYaghChkd1r7GQqqerlDOp6F/s700/KOMPAS%20TV.png" group-title="VISION+",KOMPAS TV HD
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/dafcaf8b26064ae7b27702088240b535/index.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_JTV_2025_03_17_15_01_58.png" group-title="LOKAL",JTV
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=ZGZjMjFhNzUtMjY3ZC0zYWQ2LWI1N2ItMjdiNjRkOTBiMzFj
-https://cempedak-live-cdn.mncnow.id/live/eds/JTV/sa_dash_vmx/JTV.mpd
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=96528db3a2fc4bf3a415f2c5c274b79c:3d77cf2d7ef8385d4c5fc876b742610a
+https://atemecdnbalancer-voe.sysln.id/live/eds/JTV/mpd/JTV.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_DAAITV_2025_03_17_15_28_44.png" group-title="LOKAL",DAAI TV
 https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_BALI-TV_2025_03_17_15_01_03.png" group-title="LOKAL",BALI TV
-https://streaming.indihometv.com/atm/DASH/balitv/manifest.mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=9cf20a8618854bb8bf3b7891c6cb5606:7284d5c76c7f913632c715f3d5c5aa8a
+https://d2tjypxxy769fn.cloudfront.net/out/v1/44a2d1ab71a740babb233cf14832c59d/index.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_TVONE_2025_03_17_14_49_56.png" group-title="LOKAL",tvOne
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://streaming.indihometv.com/atm/DASH/tvone/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eab667a8f7f14ff7bf00d790314a10f0:1d6693bc942f036053fc1c3c3b3b5032
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxTKuPVKXn_RBQ5ebV179yuSLUL_U3NWSo80n5SjEF420QzmQhyQZlz1fz_lOjIOLc0MXZfSnzUYddjzhGYy6WaoJm99hV2YZVmAd26zLuq65PwusxbnxUDR55FcxjKvNuOYMdz00HQGcWvmNt-5o9SK9bPynzFnA8l0CrZDlgxxK19tWIzKQm5hpwfWb3/s700/TVONE.png" group-title="VISION+",TVONE
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/f3df48faafaf4198a65b9763140fce30/index.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_MOJI_2025_03_17_15_22_26.png" group-title="LOKAL",MOJI
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://cdnbal1.indihometv.com/dass/133/moji.mpd
+#EXTVLCOPT:http-user-agent=NSPlayer/12.00.9651.000
+#KODIPROP:inputstream=inputstream.ffmpegdirect
+#KODIPROP:mimetype=video/mp2t
+#KODIPROP:inputstream.ffmpegdirect.program_number=350997
+#KODIPROP:inputstream.ffmpegdirect.is_realtime_stream=true
+http://103.179.182.117:6768/hls/50/50.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.indihometv.com/assets/images/channel/logo_insert_small1.png?v=2.0.0.15" group-title="LOKAL",Insert
-https://live.detiknetwork.com/insertlive/insertlive-event/smil:insertlive-event.smil/chunklist_w1882143488_b54400_sleng.m3u8
+#KODIPROP:inputstreamaddon=inputstream.adaptive 
+#EXTHTTP:{"dt-custom-data":"eyJ1c2VySWQiOiJyZWFjdC1qdy1wbGF5ZXIiLCJzZXNzaW9uSWQiOiIxMjM0NTY3ODkiLCJtZXJjaGFudCI6ImdpaXRkX3RyYW5zdmlzaW9uIn0="}
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.stream_headers=user-agent=Xstream XGO/1.22 (Linux;Android 9) ExoPlayerLib/2.10.5
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://bintangstreaming.my.id/cubmu/bintangstream/forsattv_pro/sultantvnew.php
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt913.transvision.co.id:1000/live/master/3/4028c6856c3db2cc016cdc51294b4f8e/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_METROTV_2025_03_17_14_51_08.png" group-title="LOKAL",METROTV
 https://edge.medcom.id/live-edge/smil:metro.smil/chunklist_w52525078_b1492000_sleng.m3u8
@@ -110,7 +155,7 @@ https://streaming.indihometv.com/atm/DASH/RRI_NET_HD/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_ANTARATV_2025_03_17_15_21_30.png" group-title="LOKAL",Antara TV
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://streaming.indihometv.com/atm/DASH/antara/manifest.mpd
+https://cdn10jtedge.indihometv.com/atm/DASH/antara/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_JAWAPOSTV_2025_03_17_14_53_33.png" group-title="LOKAL",JawaPos TV
 https://jawapostv.siar.us/jawapostv/live/playlist.m3u8
@@ -154,32 +199,36 @@ https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/ind
 https://d6m3sfa7e58z5.cloudfront.net/out/v1/2e55bc8199044c27b1dbb827af65a04f/index.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_spotv_ver1.png" group-title="SPORTS",SPOTV
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=57d2ac9210cfbca3596cc679a01c8b29:d5e35c0f39c76adf24853d7ea18c71e7
-https://cempedak-live-cdn.mncnow.id/live/eds/SPOTV-HD/sa_dash_vmx/SPOTV-HD.mpd
+#KODIPROP:inputstream.adaptive.license_key=e60ece8f0d9042fcb52508055ec48e5e:213f438bd4961cda987d41b7f154f1e5
+https://atemecdnbalancer-voe.sysln.id/live/eds/SPOTVHD/mpd/SPOTVHD.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_spotv2_ver1.png" group-title="SPORTS",SPOTV 2
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=57d2ac9210cfbca3596cc679a01c8b29:d5e35c0f39c76adf24853d7ea18c71e7
-https://cempedak-live-cdn.mncnow.id/live/eds/SPOTV2-HD/sa_dash_vmx/SPOTV2-HD.mpd
+#KODIPROP:inputstream.adaptive.license_key=e6ed3fdf6e9f491d9ead109fc0b00cfc:3bc6c45722eb5fa7b343de9bffc4f7c7
+https://atemecdnbalancer-voe.sysln.id/live/eds/SPOTV2HD/mpd/SPOTV2HD.mpd
 
 #EXTINF:-1 tvg-logo="https://ambontv.my.id/logotv/soccer.png" group-title="SPORTS",Soccer Channel
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4d38060bf41b3c29df0ec950ece6b5da:7ee9506b13480491d79b71c062ab5366
-#EXTVLCOPT:http-referrer=https://visionplus.id
-https://d1abp075u76pbq.cloudfront.net/live/eds/soccerchannel-test/sa_dash_vmx/soccerchannel-test.mpd
+#KODIPROP:inputstream.adaptive.license_key=4035323a7fe64767ab8f3345ed9b93be:67377b8d429603f8bf30c161bda269e5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuoFVlX1Z8c-aZ-WkYy7c-ns7GmIwAQUTOrPs12jcC8JLzcDkzwMjmvL4LbAqet0t__OErP9_SALn0UY1XH6USPBfPdR0z8pfnVPEtE5SrdnPWr2i7Cu6wsdwxy8P-qT5Rc4NXNlFFY1IzR6YTV6-mwt9zDfiB3RII9CATPxfIWEraF59FLPYDRGwbv92C/s700/SOCCER%20CHANNEL.png" group-title="VISION+",SOCCER CHANNEL
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd
 
 #EXTINF:-1 tvg-logo="https://ambontv.my.id/logotv/sportstars.png" group-title="SPORTS",Sportstar
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=531c6d50e3e9f9ba66446f624f492289:d769d9ae238bdd424f8bcdcdc9a3801f
-#EXTVLCOPT:http-referrer=https://visionplus.id
-https://d1abp075u76pbq.cloudfront.net/live/eds/MNCSports-HD/sa_dash_vmx/MNCSports-HD.mpd
+#KODIPROP:inputstream.adaptive.license_key=39c4dc6704cf4ceea2fd4863b88d8a7d:4e9d7954c2ff46759289da4fc9f018ea
+https://d2tjypxxy769fn.cloudfront.net/out/v1/89a6e4261cd7470f83e5869e90440cff/index.mpd
 
 #EXTINF:-1 tvg-logo="https://ambontv.my.id/logotv/sportstars2.png" group-title="SPORTS",Sportstar 2
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=45fec91ce1f19b6b1f31d69dcfaaf6cd:843e228ab109e9aa6c4822ee4ad05d7d
-#EXTVLCOPT:http-referrer=https://visionplus.id
-https://d1abp075u76pbq.cloudfront.net/live/eds/MNCSports2-HD/sa_dash_vmx/MNCSports2-HD.mpd
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.19.1 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://tvkitastream.my.id/rctiplus/drm.php/widevine?id=113
+#https://d3b0v7fggu5zwm.cloudfront.net/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/index.mpd|referrer=https://visionplus.id/
+#https://d1d2sbhidw0n3y.cloudfront.net/out/v1/cee2ab61ee8d4ff19cb0f0bffc37f9b8/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_fightsport_small.png" group-title="SPORTS",Fight Sports
 #KODIPROP:inputstream.adaptive.license_type=clearkey
