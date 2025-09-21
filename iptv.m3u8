@@ -293,8 +293,12 @@ http://op-group1-swiftservehd-1.dens.tv/h/h127/live.m3u8?app_type=web&amp;userid
 #KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
 https://cdn08jtedge.indihometv.com/dassdvr/133/nba/manifest.mpd
 
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Astro_Premier_League_1_%282024%29.png/400px-Astro_Premier_League_1_%282024%29.png",Astro Premier League
-
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://thumbor.prod.vidiocdn.com/wxu6A5xCPmydS0PsUyDZa9kbGeo=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/9353/a79dfe.png",Premier League TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha 
+#KODIPROP:inputstream.adaptive.license_key=https://sweet-night-1d1d.worst.workers.dev/play?id=9353&type=drm 
+#https://sweet-night-1d1d.worst.workers.dev/play.mpd?id=9353&type=dash
 
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Astro_Premier_League_2_%282024%29.png/400px-Astro_Premier_League_2_%282024%29.png",Astro Premier League 2
 
