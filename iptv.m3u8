@@ -160,7 +160,7 @@ https://63b2dc7196c38.streamlock.net:1937/musikfolklor/ngrp:musikfolklor_all/chu
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/ALLPLAY-HD-OTT-88.png" group-title="LOKAL",ALLPlay Ent
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-https://streaming.indihometv.com/atm/DASH/useeprime/manifest.mpd
+https://cdn11jtedge.indihometv.com/atm/useeprime.mpd
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_bein1_ver1.png" group-title="SPORTS",beIN Sports 1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
