@@ -569,20 +569,20 @@ https://cdn08jtedge.indihometv.com/dassdvr/134/davinci/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=8b62ae389f0944d4a55daaad52de1f9d:ba145a1426491316010da87bfd69de05
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/198f7febb48c4c909d62977d88c195b0/index.mpd
 
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
+#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="https://images.indihometv.com/assets/88_CGTNDOC_2025_03_17_14_59_03.png",CGTN Documentary
+#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="https://images.indihometv.com/assets/88_DISCOVERYASIA_2025_03_17_15_31_07.png",Discovery Asia
+#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="https://images.indihometv.com/assets/88_ANIMALPLANET_2025_03_17_15_27_22.png",Animal Planet
+#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="https://images.indihometv.com/assets/88_LOVENATURE_2025_03_17_15_28_20.png",Love Nature
+#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="https://images.indihometv.com/assets/88_CURIOSITY_2025_03_17_15_29_20.png",Curiosity
+#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="https://images.indihometv.com/assets/88_PHOENIXCHINESE_2025_03_17_15_01_18.png",Phoenix Chinese
+#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="https://images.indihometv.com/assets/88_HISTORY_2025_03_17_15_11_49.png",History
+#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="https://images.indihometv.com/assets/88_DISCOVERY_2025_03_17_15_36_07.png",Discovery
+#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="https://images.indihometv.com/assets/88_CRIME+INVESTIGATION_2025_03_17_14_51_47.png",Crime+Investigation
 
-#EXTINF:-1 group-title="LIFESTYLE" tvg-logo="",
-#EXTINF:-1 group-title="LIFESTYLE" tvg-logo="",
-#EXTINF:-1 group-title="LIFESTYLE" tvg-logo="",
-#EXTINF:-1 group-title="LIFESTYLE" tvg-logo="",
+#EXTINF:-1 group-title="LIFESTYLE" tvg-logo="https://images.indihometv.com/assets/88_ATV_2025_03_17_15_20_21.png",ATV
+#EXTINF:-1 group-title="LIFESTYLE" tvg-logo="https://images.indihometv.com/assets/88_AFN_2025_03_17_14_44_55.png",AFN
+#EXTINF:-1 group-title="LIFESTYLE" tvg-logo="https://images.indihometv.com/assets/88_HGTV_2025_03_17_15_00_17.png",HGTV
+#EXTINF:-1 group-title="LIFESTYLE" tvg-logo="https://images.indihometv.com/assets/88_FASHIONTV_2025_03_17_14_55_17.png",Fashion TV
 #EXTINF:-1 group-title="LIFESTYLE" tvg-logo="",
 
 #EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
