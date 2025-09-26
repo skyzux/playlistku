@@ -1,6 +1,6 @@
 #EXTM3U
 
-#EXTM3U url-tvg="https://raw.githubusercontent.com/skyzux/epg/refs/heads/master/sites/mncvision.id/mncvision.id_id.channels.xml,https://ro-kesra.jatimprov.go.id/guides/indihometv.com.xml" refresh="3600"
+#EXTM3U url-tvg="https://raw.githubusercontent.com/skyzux/epg/refs/heads/master/sites/mncvision.id/mncvision.id_id.channels.xml,https://raw.githubusercontent.com/skyzux/epg/refs/heads/master/sites/vidio.com/vidio.com.channels.xml" refresh="3600"
 
 #EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_INDOSIAR_2025_03_17_14_54_45.png" group-title="LOKAL",Indosiar
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
