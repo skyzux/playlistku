@@ -631,36 +631,138 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/AFNHD/mpd/AFNHD.mpd
 https://atemecdnbalancer-voe.sysln.id/live/eds/HGTVHD/mpd/HGTVHD.mpd
 
 #EXTINF:-1 group-title="LIFESTYLE" tvg-logo="https://images.indihometv.com/assets/88_FASHIONTV_2025_03_17_14_55_17.png",Fashion TV
-#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiViolnYrxNZW51Fw4E9wuKbQpTkdbrZVreRAUM3oeh8JMu6-hy4B5OKcHqliv11_H5ZzVRjUyLqbiErJj0vE5g1mE9dLUGu4OCVqzNRBBystKhxjWj_I6BLdkhG9q934QDUX7PZ6_apFZTO-mbBl7gpVxJj7JOtivREJmuYmHPzYF6yCXD285pANcca09K/s700/FASHION%20TV.png",FASHION TV -->
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1 -->
 #KODIPROP:inputstream.adaptive.license_type=clearkey -->
 #KODIPROP:inputstream.adaptive.license_key=16ce4fb658cf41678c72cca871770da3:95509b2ad660b196310e93a0388a8a6b
 https://atemecdnbalancer-voe.sysln.id/live/eds/FashionTV/mpd/FashionTV.mpd
 
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
-#EXTINF:-1 group-title="KNOWLEDGE" tvg-logo="",
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_HITSNOW_2025_03_17_15_25_11.png",Hits Now
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=26bfec0f1cb047d7963f37e1b6401ec0:60e2302b29cb9cabf7e1743fc2f0f059
+https://atemeshield1-voe.sysln.id/live/eds/HITSNowHD/mpd/HITSNowHD.mpd
+
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_ARIRANG_2025_03_17_14_45_16.png",Arirang
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ea468ed546bd4f94b9fd8355d5656997:a3b8756a947905cb44c997b656ffb012
+https://atemecdnbalancer-voe.sysln.id/live/eds/ArirangHD/mpd/ArirangHD.mpd
+
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_CCTV4_2025_03_17_14_57_39.png",CCTV4
+https://ldocctvwbcdcnchw.v.cdn20.com/ldocctvwbcd/cdrmldcctv4_1_720P/playlist.m3u8
+
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_NHK_2025_03_17_15_34_22.png",NHK World Japan
+https://b-nhkwlive-ojp.nhkworld.jp/hls/live/2003459-b/nhkwlive-ojp-en/index_1M.m3u8
+
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_ABCAUSTRALIA_2025_03_17_14_50_10.png",ABC Australia
+#EXTVLCOPT:http-referrer=https://www.firstmedia.com
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=fbbccb9d1f9e402293b23dcf62322d83:63d828f9c104b74c1188a651ba39c812
+https://atemecdnbalancer-voe.sysln.id/live/eds/ABC_Australia/mpd/ABC_Australia.mpd
+
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_CHINESEDRAMA_2025_03_17_15_08_14.png",Chinese Drama
+https://cdn08jtedge.indihometv.com/dassdvr/130/chinesedrama/manifest.mpd
+
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_HITS_2025_03_17_15_12_42.png",HITS
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=530cb2294e474e1f910498363a8c3864:e70e6b093930453d1dc66ab0e259131a
+https://atemecdnbalancer-voe.sysln.id/live/eds/HitsHD/mpd/HitsHD.mpd
+
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_TVN_2025_03_17_14_58_44.png",TVN
+http://op-group1-swiftservehd-1.dens.tv/h/h20/index.m3u8
+
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_AXN_2025_03_17_15_04_05.png",AXN
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b7b00124894d4f1f8b91fba79160b896:bb236ab2b198c2ffd722817bfa74cd08
+https://atemecdnbalancer-voe.sysln.id/live/eds/AXNHD/mpd/AXNHD.mpd
+
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_KPLUS_2025_03_17_15_17_05.png",K-Plus
+https://op-group1-swiftservehd-1.dens.tv/h/h08/01.m3u8
+
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_KBSWORLD_2025_03_17_15_01_35.png",KBS World
+https://op-group1-swiftservehd-1.dens.tv/h/h243/02.m3u8
+
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_CITRADRAMA_2025_03_17_14_49_15.png",Citra Drama
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eabfbb7dd5ef461699c879b05941e18d:c2f7e8f9468def5266e01a4c646b76a6
+https://atemecdnbalancer-voe.sysln.id/live/eds/CitraDramaHD/mpd/CitraDramaHD.mpd
+
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_WARNER_2025_03_17_15_11_51.png",Warner TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4503cf86bca3494ab95a77ed913619a0:afc9c8f627fb3fb255dee8e3b0fe1d71
+https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_warnertvhd.mpd
+
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_ROCKACTION_2025_03_17_14_48_54.png",Rock Action
+https://op-group1-swiftservehd-1.dens.tv/h/h15/01.m3u8
+
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_TLC_2025_03_17_15_17_48.png",TLC
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=abac9e0bf2b448f8871145829c68a7fd:eebd1a86367df6c2c4aad70b7a6165a9
+https://atemecdnbalancer-voe.sysln.id/live/eds/TLCHD/mpd/TLCHD.mpd
+
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_DUNIALAIN_2025_03_17_14_57_31.png",Dunia Lain
+https://cdn08jtedge.indihometv.com/dassdvr/130/dunialain/manifest.mpd
+
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_ROCKENTERTAINMENT_2025_03_17_15_03_43.png",Rock Entertaiment
+https://op-group1-swiftservehd-1.dens.tv/h/h16/01.m3u8
+
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_ANIPLUS_2025_03_17_14_53_54.png",Aniplus
+http://op-group1-swiftservehd-1.dens.tv/h/h201/index.m3u8
+
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_ANIMAX_2025_03_17_15_14_19.png",Animax
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ecc5bc0e2dec4b9495db147278fb3904:ca86d9fdad6a8e9b1c13368d734e2095
+https://atemecdnbalancer-voe.sysln.id/live/eds/AnimaxHD/mpd/AnimaxHD.mpd
+
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_ONE_2025_03_17_15_33_31.png",ONE
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=be886ebe45024d4b80110269211b3adb:91b1858f34ece95c8377366fb87d99c4
+https://d84q7nw4qf3j3.cloudfront.net/out/v1/9ec31bcce34848d69d4771270ff23ab9/index.mpd
+
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_KIX_2025_03_17_15_09_40.png",KIX
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=6300053f268640b9b2b695cb5ab0677e:cb81072bd6e4d4ff3b3187efff7928d1
+https://atemecdnbalancer-voe.sysln.id/live/eds/KIXHD/mpd/KIXHD.mpd
+
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_LIFETIME_2025_03_17_14_54_15.png",Lifetime
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2c8ff6307bf94b408b9759d7cdb6e95e:50fede3d058915c8ddaa43721d52ec69
+https://atemecdnbalancer-voe.sysln.id/live/eds/LifetimeHD/mpd/LifetimeHD.mpd
+
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_TV5MONDE_2025_03_17_15_20_39.png",TV5Monde
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8e1901f646584b92af0a1a4406ffce23:7d1ca6e0f4f0d3d1a57c74204e273d6c
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://d1ebgtxjo246w3.cloudfront.net/out/v1/16374447d35a49a596b9ff6cda259fe0/index.mpd
+
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_ZHEJIANGTV_2025_03_17_15_09_06.png",Zhejiang TV
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_SHENZENTV_2025_03_17_15_10_02.png",
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/1742178319_NEWTVCOMPREHENSIVE.png",
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/1742178448_NEWTVFINANCE.png",
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/1742178710_NEWTVVARIETY.png",
+#EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_PHOENIXINFONEWS_2025_03_17_15_00_10.png",
+
+#EXTINF:-1 group-title="MUSIC" tvg-logo="",
+#EXTINF:-1 group-title="MUSIC" tvg-logo="",
+#EXTINF:-1 group-title="MUSIC" tvg-logo="",
+#EXTINF:-1 group-title="MUSIC" tvg-logo="",
+
+#EXTINF:-1 group-title="RELIGION" tvg-logo="",
+#EXTINF:-1 group-title="RELIGION" tvg-logo="",
+#EXTINF:-1 group-title="RELIGION" tvg-logo="",
+#EXTINF:-1 group-title="RELIGION" tvg-logo="",
+#EXTINF:-1 group-title="RELIGION" tvg-logo="",
+#EXTINF:-1 group-title="RELIGION" tvg-logo="",
+#EXTINF:-1 group-title="RELIGION" tvg-logo="",
+#EXTINF:-1 group-title="RELIGION" tvg-logo="",
+#EXTINF:-1 group-title="RELIGION" tvg-logo="",
+#EXTINF:-1 group-title="" tvg-logo="",
