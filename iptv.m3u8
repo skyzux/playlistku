@@ -389,6 +389,21 @@ https://ssc-extra-2-enc.edgenextcdn.net/out/v1/8b70de2b70d447ba8a7450ba90926a2d/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62
 https://ssc-extra3-enc.edgenextcdn.net/out/v1/8f1c6c3f05ef4284a64b342891bd85ae/index.mpd
 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/774px-DAZN_1_Logo.svg.png?20210827134204" group-title="SPORTS",DAZN 1
+http://tbtv.me:2095/play/live.php?mac=00:1A:79:E7:32:0C&stream=214672&extension=m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/DAZN_2.svg/882px-DAZN_2.svg.png?20220702044301" group-title="SPORTS",DAZN 2
+http://tbtv.me:2095/play/live.php?mac=00:1A:79:E7:32:0C&stream=214673&extension=m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/DAZN_3.svg/1000px-DAZN_3.svg.png?20230925212333" group-title="SPORTS",DAZN 3
+http://tbtv.me:2095/play/live.php?mac=00:1A:79:E7:32:0C&stream=214718&extension=m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/DAZN_3.svg/1000px-DAZN_3.svg.png?20230925212333" group-title="SPORTS",DAZN 4
+http://tbtv.me:2095/play/live.php?mac=00:1A:79:E7:32:0C&stream=374411&extension=m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/DAZN_F1_logo.svg/1024px-DAZN_F1_logo.svg.png?20220719171020" group-title="SPORTS",DAZN F1
+http://tbtv.me:2095/play/live.php?mac=00:1A:79:E7:32:0C&stream=214592&extension=m3u8
+
 #EXTINF:-1 group-title="NEWS" tvg-logo="https://images.indihometv.com/assets/88_FRANCE24_2025_03_17_14_59_11.png",France24
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
