@@ -314,6 +314,18 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/2604/default_primary.mpd
 #KODIPROP:inputstream.adaptive.stream_headers=referer=https://astrogo.astro.com.my//&user-agent=Mozilla/5.0 (Linux; Android 10; MI 9 Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36
 http://linearjitp-playback.astro.com.my/dash-wv/linear/5057/default_primary.mpd
 
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/07/Astro_Grandstand_%28Oct_2024%29.png/revision/latest?cb=20241121183356",Astro Grandstand
+http://tbtv.me:2095/play/live.php?mac=00:1A:79:E7:32:0C&stream=186389&extension=ts
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/70/Astro_Football_%28Oct_2024%29.png/revision/latest?cb=20241121183458",Astro Football
+http://tbtv.me:2095/play/live.php?mac=00:1A:79:E7:32:0C&stream=186390&extension=ts
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Astro_Premier_League_1_%282024%29.png/800px-Astro_Premier_League_1_%282024%29.png",Astro Premier League
+http://tbtv.me:2095/play/live.php?mac=00:1A:79:E7:32:0C&stream=186387&extension=ts
+
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Astro_Premier_League_2_%282024%29.png/800px-Astro_Premier_League_2_%282024%29.png",Astro Premier League2
+http://tbtv.me:2095/play/live.php?mac=00:1A:79:E7:32:0C&stream=186388&extension=ts
+
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://ambontv.my.id/logotv/unifisports.png",Unifi Sports
 https://unifi-live05.secureswiftcontent.com/UnifiHD/live11.mpd
 
@@ -524,19 +536,19 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/de93893d01e6446daaf052a7fec694fc/in
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/dc63bd198bc44193b570e0567ff5b22c/index.mpd
 
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://i.postimg.cc/k5mSyZ6N/hbo.png",HBO
-http://xtvplayer.top:8080/waleed7788/waleed4455/350955
+http://tvking.xyz:8080/Pecijay952/abc12345/6964
 
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://i.postimg.cc/pL4xjhT3/hbohits.png",HBO Hits
-http://xtvplayer.top:8080/waleed7788/waleed4455/350957
+http://tvking.xyz:8080/Pecijay952/abc12345/6965
 
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://i.postimg.cc/nhzBz5j0/hbosig.png",HBO Signature
-http://xtvplayer.top:8080/waleed7788/waleed4455/350958
+http://tvking.xyz:8080/Pecijay952/abc12345/6966
 
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://i.postimg.cc/507jZ9pJ/hbofam.png",HBO Family
-http://xtvplayer.top:8080/waleed7788/waleed4455/350956
+http://tvking.xyz:8080/Pecijay952/abc12345/6967
 
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://i.ibb.co.com/WfRpvsJ/cinemax.png",Cinemax
-http://xtvplayer.top:8080/waleed7788/waleed4455/350922
+http://tvking.xyz:8080/Pecijay952/abc12345/6963
 
 #EXTINF:-1 group-title="KIDS" tvg-logo="https://images.indihometv.com/assets/88_FUNPLANET_2025_03_17_15_15_54.png",Fun Planet
 https://cdn10jtedge.indihometv.com/atm/DASH/indikids/manifest.mpd
