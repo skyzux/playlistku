@@ -304,7 +304,7 @@ https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd1/stream_0.m3u8
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/af/Star-sports-select-2-hd.png/revision/latest?cb=20230128175317",Star Sports Select 2 HD
 https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd2/stream_0.m3u8
 
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://id.wikipedia.org/wiki/Sukan_RTM#/media/Berkas%3ASUKAN_RTM.jpg",Sukan RTM
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SUKAN_RTM.jpg/500px-SUKAN_RTM.jpg",Sukan RTM
 #EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
 https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/playlist.m3u8?id=4
 
