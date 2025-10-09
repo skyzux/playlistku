@@ -170,13 +170,13 @@ https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/ind
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 
 https://d6m3sfa7e58z5.cloudfront.net/out/v1/2e55bc8199044c27b1dbb827af65a04f/index.mpd
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/SPOTV_logo.svg" group-title="SPORTS",SPOTV
+#EXTINF:-1 tvg-logo="https://cms.spotvasia.com/upload/channel/file_e0e6fd1b-32a7-4279-9776-108d663e6192.png" group-title="SPORTS",SPOTV
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e60ece8f0d9042fcb52508055ec48e5e:213f438bd4961cda987d41b7f154f1e5
 https://atemecdnbalancer-voe.sysln.id/live/eds/SPOTVHD/mpd/SPOTVHD.mpd
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/60/SPOTV2_%28SVG%29.svg/revision/latest?cb=20250418231709" group-title="SPORTS",SPOTV 2
+#EXTINF:-1 tvg-logo="https://cms.spotvasia.com/upload/channel/file_15a81966-c8d6-492a-aed6-3c6a8ff34604.png" group-title="SPORTS",SPOTV 2
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e6ed3fdf6e9f491d9ead109fc0b00cfc:3bc6c45722eb5fa7b343de9bffc4f7c7
@@ -216,7 +216,7 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/6f5596513af749c19d0bcdac013dda3c/in
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/index.mpd
 
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/logo_fightsport_small.png" group-title="SPORTS",Fight Sports
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/eb/Fight_Sports.svg/revision/latest?cb=20250128021342" group-title="SPORTS",Fight Sports
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://drm-vision2025.tvrusak1992.workers.dev/?no=114&type=drm
@@ -279,13 +279,13 @@ https://sweet-night-1d1d.worst.workers.dev/play.mpd?id=18189&type=dash
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 http://op-group1-swiftservehd-1.dens.tv/h/h127/live.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=HorizonSports
 
-#EXTINF:-1 tvg-logo"https://en.m.wikipedia.org/wiki/NBA_TV#/media/File%3ANBA_TV.svg" group-title="SPORTS",NBA TV
+#EXTINF:-1 tvg-logo="https://en.m.wikipedia.org/wiki/NBA_TV#/media/File%3ANBA_TV.svg" group-title="SPORTS",NBA TV
 #EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://spacetv.my.id/drm.kt?id=6717&type=drm
 https://spacetv.my.id/index.mpd?id=6717&type=dash
 
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://thumbor.prod.vidiocdn.com/wxu6A5xCPmydS0PsUyDZa9kbGeo=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/9353/a79dfe.png",Premier League TV
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/f/f2/Premier_League_Logo.svg/500px-Premier_League_Logo.svg.png",Premier League TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha 
@@ -298,7 +298,7 @@ https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd1/stream_0.m3u8
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/af/Star-sports-select-2-hd.png/revision/latest?cb=20230128175317",Star Sports Select 2 HD
 https://live.dinesh29.com.np/stream/jiotvplus/starsportsselecthd2/stream_0.m3u8
 
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://ambontv.my.id/logotv/sukan.png",Sukan RTM
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://id.wikipedia.org/wiki/Sukan_RTM#/media/Berkas%3ASUKAN_RTM.jpg",Sukan RTM
 #EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
 https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/playlist.m3u8?id=4
 
@@ -326,10 +326,10 @@ http://tbtv.me:2095/play/live.php?mac=00:1A:79:E7:32:0C&stream=186387&extension=
 #EXTINF:-1 group-title="SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Astro_Premier_League_2_%282024%29.png/800px-Astro_Premier_League_2_%282024%29.png",Astro Premier League2
 http://tbtv.me:2095/play/live.php?mac=00:1A:79:E7:32:0C&stream=186388&extension=ts
 
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://ambontv.my.id/logotv/unifisports.png",Unifi Sports
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5a/UnifiSports2023.png",Unifi Sports
 https://unifi-live05.secureswiftcontent.com/UnifiHD/live11.mpd
 
-#EXTINF:-1 group-title="SPORTS" tvg-logo="https://ambontv.my.id/logotv/redbulltv.png",Redbull TV
+#EXTINF:-1 group-title="SPORTS" tvg-logo="https://img.redbull.com/images/w_450/q_auto,f_auto/redbullcom/2021/3/8/v1viztxjab9e9a6of4by/redbulltv",Redbull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
 
 #EXTINF:-1 group-title="SPORTS" tvg-logo="",SSC 1
