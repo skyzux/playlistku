@@ -838,6 +838,11 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/LifetimeHD/mpd/LifetimeHD.mpd
 https://d1ebgtxjo246w3.cloudfront.net/out/v1/16374447d35a49a596b9ff6cda259fe0/index.mpd
 
 #EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_ZHEJIANGTV_2025_03_17_15_09_06.png",Zhejiang TV
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d397670017d94f648f4942d3f35b2f10:bd3353307516a1865bf83d6b1ac60368
+https://atemecdnbalancer-voe.sysln.id/live/eds/ZhejiangTV/mpd/ZhejiangTV.mpd
+
 #EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_SHENZENTV_2025_03_17_15_10_02.png",
 #EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/1742178319_NEWTVCOMPREHENSIVE.png",
 #EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/1742178448_NEWTVFINANCE.png",
