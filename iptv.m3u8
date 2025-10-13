@@ -874,6 +874,8 @@ https://e.siar.us/live/tvmu.m3u8
 https://mui.siar.us/mui/live/playlist.m3u8
 
 #EXTINF:-1 group-title="RELIGION" tvg-logo="https://images.indihometv.com/logo_rodjatv_small1.png?v=2.0.0.13",RodjaTV
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
 https://op-group1-swiftservesd-1.dens.tv/s/s14/01.m3u8
 
 #EXTINF:-1 group-title="RELIGION" tvg-logo="https://images.indihometv.com/logo_tawaftvbaru_small.png",Tawaf TV
