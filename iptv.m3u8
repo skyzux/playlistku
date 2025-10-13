@@ -885,17 +885,21 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/ZhejiangTV/mpd/ZhejiangTV.mpd
 #EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/1742178710_NEWTVVARIETY.png",
 #EXTINF:-1 group-title="ENTERTAINMENT" tvg-logo="https://images.indihometv.com/assets/88_PHOENIXINFONEWS_2025_03_17_15_00_10.png",
 
-#EXTINF:-1 group-title="MUSIC" tvg-logo="https://images.indihometv.com/logo_pramborstv_small1.png?v=2.0.0.13",
-
 #EXTINF:-1 group-title="MUSIC" tvg-logo="https://images.indihometv.com/logo_citradangdut_ver1.png",Citra Dangdut
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=44a4c73921ea4f5f90eaaaf793d3f7cf:3be319093fec8a409fe0553128089671
 https://atemecdnbalancer-voe.sysln.id/live/eds/CitraDangdutHD/mpd/CitraDangdutHD.mpd
 
-#EXTINF:-1 group-title="MUSIC" tvg-logo="https://images.indihometv.com/logo_musikindo_small.png?v=2.0.0.13",Musik Indonesia
-#EXTINF:-1 group-title="MUSIC" tvg-logo="https://images.indihometv.com/logo_mtvlive_small.png?v=2.0.0.13",MTV
+#EXTINF:-1 group-title="MUSIC" tvg-logo="https://images.indihometv.com/logo_mtvlive_small.png?v=2.0.0.13",MTV LIVE
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=fd2992f9397c491497015b57cd1c8747:1dcd4c7b242b479fd9f1899120fd1f2f
+https://atemecdnbalancer-voe.sysln.id/live/eds/MTVLiveHD/mpd/MTVLiveHD.mpd
+
 #EXTINF:-1 group-title="MUSIC" tvg-logo="https://images.indihometv.com/logo_ikonser_small.png?v=2.0.0.13",I-Konser
+#EXTINF:-1 group-title="MUSIC" tvg-logo="https://images.indihometv.com/logo_musikindo_small.png?v=2.0.0.13",Musik Indonesia
+#EXTINF:-1 group-title="MUSIC" tvg-logo="https://images.indihometv.com/logo_pramborstv_small1.png?v=2.0.0.13",PramborsTV
 
 #EXTINF:-1 group-title="RELIGION" tvg-logo="https://images.indihometv.com/logo_alquran_small1.png?v=2.0.0.13",AlQuran Al Kareem
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
@@ -921,9 +925,6 @@ https://op-group1-swiftservesd-1.dens.tv/s/s14/01.m3u8
 #KODIPROP:inputstream.adaptive.license_key=https://spacetv.my.id/drm.kt?id=12607&type=drm
 https://spacetv.my.id/index.mpd?id=12607&type=dash
 
-#EXTINF:-1 group-title="RELIGION" tvg-logo="https://images.indihometv.com/logo_tv9_small.png?v=2.0.0.13",TV9
-https://5bf7b725107e5.streamlock.net/tv9/tv9/chunklist_w156074751.m3u8
-
 #EXTINF:-1 group-title="RELIGION" tvg-logo="https://images.indihometv.com/logo_uchannel_small1.png?v=2.0.0.13",U-Channel
 #EXTVLCOPT:http-user-agent=VidioPlayer/6.31.6
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -936,5 +937,8 @@ https://spacetv.my.id/index.mpd?id=6898&type=dash
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 https://cdn11jtedge.indihometv.com/atm/DASH/mtatv/manifest.mpd
+
+#EXTINF:-1 group-title="RELIGION" tvg-logo="https://images.indihometv.com/logo_tv9_small.png?v=2.0.0.13",TV9
+https://5bf7b725107e5.streamlock.net/tv9/tv9/chunklist_w156074751.m3u8
 
 #EXTINF:-1 group-title="" tvg-logo="",
