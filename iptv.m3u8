@@ -907,4 +907,10 @@ https://5bf7b725107e5.streamlock.net/tv9/tv9/chunklist_w156074751.m3u8
 https://spacetv.my.id/index.mpd?id=6898&type=dash
 
 #EXTINF:-1 group-title="RELIGION" tvg-logo="https://www.indihometv.com/assets/images/channel/logo_mtatv_small1.png",MTATV
+#EXTVLCOPT:http-referrer=https://www.indihometv.com/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+https://cdn11jtedge.indihometv.com/atm/DASH/mtatv/manifest.mpd
+
 #EXTINF:-1 group-title="" tvg-logo="",
