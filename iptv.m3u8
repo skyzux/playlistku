@@ -574,6 +574,11 @@ https://op-group1-swiftservehd-1.dens.tv/h/h193/index.m3u8
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://www.useetv.com/pimages/logo_new-myfamily_small.png",MyFamily Channel
 
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://i.postimg.cc/k5mSyZ6N/hbo.png",HBO
+#KODIPROP:inputstream.adaptive.license_type=widevine
+#KODIPROP:inputstream.adaptive.license_key=https://lic.drmtoday.com/license-proxy-widevine/cenc/?specConform=true
+#KODIPROP:inputstream.adaptive.stream_headers=dt-custom-data=eyJ1c2VySWQiOiJndWVzdDEwODc0QG1vcmF0ZWxpbmRvLmNvbSIsInNlc3Npb25JZCI6ImV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSklVekkxTmlKOS5leUpqZFhKeVpXNTBVMlZ6YzJsdmJrbGtJam9pTURNME56Rm1PVGt0WlRkbU5pMDBaREZrTFRrME1qWXROakl5TVRVMFpqRmxZek0zSWl3aVkzVnljbVZ1ZEVSbGRtbGpaVlI1Y0dVaU9pSkJJaXdpWTNWeWNtVnVkRkJzWVhSbWIzSnRTV1FpT2lJME1ESTRZelk0TlRZek5XRXdZell6TURFMk16VmhNVEUzWVRabE1EQXdNaUlzSW5ScGJXVjZiMjVsSWpvaVJYVnliM0JsTDB4dmJtUnZiaUlzSW1GMWRHaHZjbWwwZVNJNklsSlBURVZmVlZORlVpSXNJbVY0Y0NJNk1UYzFNRFU1TnpJM09Dd2lkWE5sY2tsa0lqb2lOREF5T0RRNFpUUTNaVE0xTlRNMk5qQXhOMlV6WkRSa05UazNaakF3TVdNaUxDSmtaWFpwWTJWSlpDSTZJalUyWlROaU1HTmhZamxqTVRVME9HTWlMQ0pwWVhRaU9qRTNORGd3TURVeU56Z3NJblZ6WlhKdVlXMWxJam9pWjNWbGMzUXhNRGczTkVCdGIzSmhkR1ZzYVc1a2J5NWpiMjBpZlEuX0pJYVNUcUFxVW9wSzNzUUJQSUZBRDJyU0FyWlhIa2c3dkR1Vl8wOUhWZyIsIm1lcmNoYW50IjoiZ2lpdGRfdHJhbnN2aXNpb24ifQ==
+https://cdnjkt913.transvision.co.id:1000/live/master/3/4028c6856b6088c3016b87d64b970b53/manifest.mpd
+
 http://tvking.xyz:8080/Pecijay952/abc12345/6964
 
 #EXTINF:-1 group-title="MOVIES" tvg-logo="https://i.postimg.cc/pL4xjhT3/hbohits.png",HBO Hits
