@@ -133,7 +133,7 @@ https://tvstreamcast.com/indonesiana.m3u8
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-https://cdn11jtedge.indihometv.com/joss/18/useeprime.m3u8
+https://cdn10jtedge.indihometv.com/atm/DASH/useeprime/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Logo_bein_sports_1.png/1600px-Logo_bein_sports_1.png" group-title="SPORTS",beIN Sports 1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -894,7 +894,13 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/MTVLiveHD/mpd/MTVLiveHD.mpd
 
 #EXTINF:-1 group-title="MUSIC" tvg-logo="https://images.indihometv.com/logo_ikonser_small.png?v=2.0.0.13",I-Konser
 #EXTINF:-1 group-title="MUSIC" tvg-logo="https://images.indihometv.com/logo_musikindo_small.png?v=2.0.0.13",Musik Indonesia
+
 #EXTINF:-1 group-title="MUSIC" tvg-logo="https://images.indihometv.com/logo_pramborstv_small1.png?v=2.0.0.13",PramborsTV
+#EXTVLCOPT:http-referrer=https://www.indihometv.com/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+https://cdn10jtedge.indihometv.com/atm/DASH/PRAMBORS_TV/manifest.mpd
 
 #EXTINF:-1 group-title="RELIGION" tvg-logo="https://images.indihometv.com/logo_alquran_small1.png?v=2.0.0.13",AlQuran Al Kareem
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
@@ -927,7 +933,7 @@ https://popmi.my.id/tes.m3u8?id=6898
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-https://cdn11jtedge.indihometv.com/atm/DASH/mtatv/manifest.mpd
+https://cdn10jtedge.indihometv.com/atm/DASH/mtatv/manifest.mpd
 
 #EXTINF:-1 group-title="RELIGION" tvg-logo="https://images.indihometv.com/logo_tv9_small.png?v=2.0.0.13",TV9
 https://5bf7b725107e5.streamlock.net/tv9/tv9/chunklist_w156074751.m3u8
